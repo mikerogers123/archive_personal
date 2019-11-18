@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../card/card';
 import { ConnectedComponent, connectComponent } from '../redux/connected-components';
-import UniImage from '../images/uni.jpg';
+import UniImage from '../images/uni.png';
 import CollegeImage from '../images/college.png';
 import SchoolImage from '../images/school.jpg';
 
