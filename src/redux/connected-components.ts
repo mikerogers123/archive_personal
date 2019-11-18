@@ -14,6 +14,6 @@ export abstract class ConnectedComponent extends React.Component<ComponentProps>
   }
 
   protected get storeState() {
-    return this.props as Readonly<StoreState>;
+    return this.props as StoreState;
   }
 }
