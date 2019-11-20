@@ -1,14 +1,18 @@
 import React from 'react';
 import { connectComponent, ConnectedComponent } from './redux/connected-components';
 import Header from './header/header';
-import Education from './education/education';
+import Education from './pages/education';
+import Experience from './pages/experience';
 
 export class AppComponent extends ConnectedComponent {
   render() {
     return (
-      <div className="container">
+      <div>
         <Header></Header>
-        <Education></Education>
+        <div className="container">
+          <Education></Education>
+          <Experience></Experience>
+        </div>
       </div>
     );
   }

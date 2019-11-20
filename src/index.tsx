@@ -13,8 +13,7 @@ const store = configureStore();
 ReactDOM.render(
     <Provider store={store}>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet"></link>
-        <App />
+        <link href="https://fonts.googleapis.com/css?family=Acme|Dosis|Fredoka+One|Lobster&display=swap" rel="stylesheet"></link>        <App />
     </Provider>,
     document.getElementById('root')
 );

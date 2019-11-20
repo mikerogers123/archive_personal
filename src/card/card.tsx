@@ -9,7 +9,7 @@ type CardProps = Readonly<{
 export class CardComponent extends React.Component<CardProps> {
     render() {
         return (
-            <div className="card">
+            <div className="card hoverable">
                 <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" style={{height:"9rem"}} src={this.props.image}></img>
                 </div>
