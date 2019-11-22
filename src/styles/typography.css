@@ -1,8 +1,18 @@
 body {	
 	background: #fbfbf8;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lato', sans-serif;
+    color: darkslategrey !important;
+}
+::selection {
+    background: darkslategrey;
+    color: white;
 }
 
-h1 {
-    font-size: 4rem;
+nav .brand-logo, nav ul a {
+    color: darkslategrey !important;
 }
+
+h1, nav {
+    font-family: 'Major Mono Display', monospace;
+}
+

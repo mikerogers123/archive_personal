@@ -11,7 +11,7 @@ export class EducationComponent extends ConnectedComponent {
         return (
             <Page title="Education">
                 <div className="row">
-                    <div className="col s4">
+                    <div className="col s12 m4">
                         <Card
                             description={<p>description here</p>}
                             image={UniImage}
@@ -19,7 +19,7 @@ export class EducationComponent extends ConnectedComponent {
                         ></Card>
                     </div>
 
-                    <div className="col s4">
+                    <div className="col s12 m4">
                         <Card
                             description={<p>description here</p>}
                             image={CollegeImage}
@@ -27,7 +27,7 @@ export class EducationComponent extends ConnectedComponent {
                         ></Card>
                     </div>
 
-                    <div className="col s4">
+                    <div className="col s12 m4">
                         <Card
                             description={<p>description here</p>}
                             image={SchoolImage}
