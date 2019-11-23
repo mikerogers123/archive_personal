@@ -8,11 +8,11 @@ body {
     color: white;
 }
 
-nav .brand-logo, nav ul a {
-    color: darkslategrey !important;
-}
-
 h1, nav {
     font-family: 'Major Mono Display', monospace;
+}
+
+.darkslategrey {
+    background: darkslategrey !important;
 }
 

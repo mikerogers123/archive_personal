@@ -6,7 +6,7 @@ export class CvDownloadComponent extends ConnectedComponent {
     render() {
         return (
             <div className="fixed-action-btn">
-                <a className="btn-floating btn-large">
+                <a className="btn-floating btn-large darkslategrey">
                     <Icon icon="file_download"></Icon>
                 </a>
             </div>
