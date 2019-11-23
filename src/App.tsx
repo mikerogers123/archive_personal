@@ -7,6 +7,7 @@ import Contact from './pages/contact';
 import Skills from './pages/skills';
 import CvDownload from './cv-download/cv-download';
 import Navbar from './navbar/navbar';
+import Footer from './footer/footer';
 
 export class AppComponent extends ConnectedComponent {
   render() {
@@ -21,6 +22,7 @@ export class AppComponent extends ConnectedComponent {
             <Contact></Contact>
         </div>
         <CvDownload></CvDownload>
+        <Footer></Footer>
       </div>
     );
   }
