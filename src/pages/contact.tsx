@@ -2,13 +2,13 @@ import React from 'react';
 import { ConnectedComponent, connectComponent } from '../redux/connected-components';
 import Page from './page';
 
-export class AboutComponent extends ConnectedComponent {
+export class ContactComponent extends ConnectedComponent {
     render() {
         return (
-            <Page title="About">
+            <Page title="Contact">
             </Page>
         );
     }
 }
 
-export default connectComponent(AboutComponent);
+export default connectComponent(ContactComponent);
