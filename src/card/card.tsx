@@ -18,8 +18,8 @@ export class CardComponent extends React.Component<CardProps> {
                         {this.props.title}<i className="material-icons right">more_vert</i>
                     </span>
                 </div>
-                <div className="card-reveal">
-                    <span className="card-title grey-text text-darken-4">
+                <div className="card-reveal darkslategrey white-text">
+                    <span className="card-title">
                         {this.props.title}<i className="material-icons right">close</i>
                     </span>
                     {this.props.description}

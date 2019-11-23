@@ -7,10 +7,11 @@ class NavbarComponent extends ConnectedComponent {
             <div className="navbar-fixed">
                 <nav className="darkslategrey">
                     <div className="nav-wrapper">
-                        <span className="brand-logo left">Mike Rogers</span>
+                        <span className="brand-logo left">MIKE ROGERS</span>
                         <ul id="nav-mobile" className="right">
                             <li>
-                                <a href="https://www.linkedin.com/in/michael-rogers-620836a6">Linkedin</a>
+                                <span className="white darkslategrey-text">SOFTWARE ENGINEER</span>
+                                {/* <a href="https://www.linkedin.com/in/michael-rogers-620836a6">Linkedin</a> */}
                             </li>
                         </ul>
                     </div>
