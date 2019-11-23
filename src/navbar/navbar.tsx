@@ -6,7 +6,7 @@ class NavbarComponent extends ConnectedComponent {
         return (
             <div className="navbar-fixed">
                 <nav className="darkslategrey">
-                    <div className="nav-wrapper">
+                    <div className="nav-wrapper container">
                         <span className="brand-logo left">MIKE ROGERS</span>
                         <ul id="nav-mobile" className="right">
                             <li>

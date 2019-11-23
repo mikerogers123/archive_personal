@@ -5,7 +5,9 @@ class FooterComponent extends ConnectedComponent {
     render() {
         return (
             <footer className="page-footer darkslategrey white-text">
-                Footer
+                <div className="container">
+                    Footer
+                </div>
             </footer>
         );
     }
