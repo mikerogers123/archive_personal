@@ -8,7 +8,7 @@ body {
     color: white;
 }
 
-h1, nav {
+h1, nav, footer {
     font-family: 'Major Mono Display', monospace;
 }
 
