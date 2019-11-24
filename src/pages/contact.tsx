@@ -16,7 +16,7 @@ export class ContactComponent extends ConnectedComponent {
                         <ButtonLink link="https://github.com/mikerogers123">GitHub</ButtonLink>
                     </div>
                     <div className="center-align col s12 m4">
-                        <ButtonEmail>Email me</ButtonEmail>
+                        <ButtonEmail></ButtonEmail>
                     </div>
                 </div>
             </Page>

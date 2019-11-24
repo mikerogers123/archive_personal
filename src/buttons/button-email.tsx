@@ -1,5 +1,6 @@
 import React from 'react';
 import ButtonLink from './button-link';
+import Icon from '../icons/icon';
 
 const myEmail = "mikerogers_@hotmail.co.uk";
 
@@ -11,7 +12,7 @@ class ButtonEmailComponent extends React.Component {
     render() {
         return (
             <ButtonLink link={this.href}>
-                {this.props.children}
+                Email me
             </ButtonLink>
         );
     }
