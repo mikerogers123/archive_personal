@@ -20,3 +20,6 @@ h1, nav, footer, .title-font {
     color: darkslategrey !important;
 }
 
+.btn-floating {
+    border-radius: 0 !important;
+}
