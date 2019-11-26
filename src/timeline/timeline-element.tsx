@@ -14,8 +14,8 @@ export class TimelineElementComponent extends React.Component<TimelineElementPro
     render() {
         return (<VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'lightgray', color: 'darkslategrey' }}
-            contentArrowStyle={{ borderRight: '7px solid lightgray' }}
+            contentStyle={{ background: 'Gainsboro', color: 'darkslategrey' }}
+            contentArrowStyle={{ borderRight: '7px solid Gainsboro' }}
             date={this.props.date}
             iconStyle={{ background: 'white', color: 'darkslategrey' }}
             icon={<IconComponent icon={this.props.icon} size="medium"></IconComponent>}
