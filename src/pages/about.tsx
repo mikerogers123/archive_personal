@@ -17,6 +17,26 @@ export class AboutComponent extends ConnectedComponent {
                             Creative Direction, User Experience, Visual Design, Project Management, Team Leading
                         </p>
                     </TimelineElement>
+                    <TimelineElement date="2011 - present" icon="pregnant_woman" title="Birth" subtitle="Taunton">
+                        <p>
+                            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                        </p>
+                    </TimelineElement>
+                    <TimelineElement date="2011 - present" icon="pregnant_woman" title="Birth" subtitle="Taunton">
+                        <p>
+                            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                        </p>
+                    </TimelineElement>
+                    <TimelineElement date="2011 - present" icon="pregnant_woman" title="Birth" subtitle="Taunton">
+                        <p>
+                            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                        </p>
+                    </TimelineElement>
+                    <TimelineElement date="2011 - present" icon="pregnant_woman" title="Birth" subtitle="Taunton">
+                        <p>
+                            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                        </p>
+                    </TimelineElement>
                 </Timeline>
             </Page>
         );
