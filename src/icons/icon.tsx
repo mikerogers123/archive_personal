@@ -2,7 +2,8 @@ import React from 'react';
 
 export type Icon = 
     'file_download' |
-    'send';
+    'send' |
+    'pregnant_woman';
     
 export type IconSize = 
     'tiny' |
