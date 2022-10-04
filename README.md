@@ -1,4 +1,5 @@
 # Archived
+Replaced with https://github.com/mikerogers123/blog
 
 ## TODO
 See [trello board](https://trello.com/b/xmPdrVCi/personal-site).
